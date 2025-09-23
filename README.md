@@ -1,4 +1,4 @@
-# Veritas Lens: Your AI-Powered Critical Thinking Co-pilot
+# Veritas Lens: Your AI-Powered Fact Checker and Critical Thinking Co-pilot
 
 Veritas Lens is a sophisticated browser extension that acts as an AI-powered co-pilot for the modern web user. It transforms passive online consumption into an active, critical engagement with information by providing on-demand fact-checking, source analysis, and nuanced counterarguments for any text you select online.
 
