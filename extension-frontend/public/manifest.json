@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Veritas Lens",
+  "version": "1.0.0",
+  "description": "An AI-powered critical thinking co-pilot for the modern web user.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "scripts/background/service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["scripts/content-scripts/loader.js"],
+      "css": ["assets/style.css"]
+    }
+  ],
+  "action": {
+    "default_title": "Veritas Lens",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/*",
+        "scripts/content-scripts/content.js",
+        "scripts/content-scripts/youtubeInjector.js"
+       ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

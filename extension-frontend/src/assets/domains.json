@@ -1,0 +1,26 @@
+
+{
+  "high_trust": [
+    "apnews.com",
+    "reuters.com",
+    "bbc.com",
+    "pbs.org",
+    "npr.org",
+    "nature.com",
+    "sciencemag.org",
+    "thelancet.com",
+    "nejm.org",
+    "stanford.edu",
+    "harvard.edu",
+    "mit.edu",
+    "wikipedia.org"
+  ],
+  "low_trust": [
+    "infowars.com",
+    "breitbart.com",
+    "naturalnews.com",
+    "dailycaller.com",
+    "thegatewaypundit.com",
+    "worldnewsdailyreport.com"
+  ]
+}
