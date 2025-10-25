@@ -54,6 +54,7 @@ Follow these steps to get Veritas Lens running on your local machine.
     cd api-backend
     ```
 2.  **Create and activate a virtual environment:**
+3.  
     ```bash
     # Create the environment
     python -m venv venv
@@ -62,14 +63,14 @@ Follow these steps to get Veritas Lens running on your local machine.
     # Activate it (Windows)
     venv\Scripts\activate
     ```
-3.  **Install dependencies:**
+4.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-4.  **Set up environment variables:**
+5.  **Set up environment variables:**
       * Create a `.env` file by copying the example: `cp .env.example .env` (or `copy` on Windows).
       * Open the `.env` file and paste in your Gemini API key.
-5.  **Run the Flask server:**
+6.  **Run the Flask server:**
     ```bash
     flask run
     ```
